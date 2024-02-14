@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Run Calculator</title>
+    <HTA:APPLICATION ID="RunCalc" APPLICATIONNAME="RunCalcApp" WINDOWSTATE="normal"/>
+</head>
+<body>
+    <script type="text/vbscript">
+        Set oShell = CreateObject("WScript.Shell")
+        oShell.Run "calc.exe", 1, False
+        Self.Close
+    </script>
+</body>
+</html>
